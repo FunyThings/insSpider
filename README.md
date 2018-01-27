@@ -1,8 +1,7 @@
 ## 用Selenium 和phantomjs 翻墙爬取动态加载网站instagram
 
-### 环境Python2.7,由于3.6不支持phantomjs，还要先有个翻墙的代理vpn之类的
-
-    import json
+### 环境Python2.7,由于3.6不支持phantomjs，还要先有个翻墙的代理vpn之类的,这个只是爬取某个个人主页下的图片，点赞，更新日期的信息
+    import json
     from selenium import webdriver
     # 引入配置对象DesiredCapabilities
     from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
